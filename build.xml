@@ -8,7 +8,6 @@
         <property name="build" value=".\build" />
         <property name="src" value=".\src" />
         <property name="dist" value=".\dist" />
-        <property name="lib" value=".\lib" />
         <property name="meta" value=".\meta" />
         <property name="context-path" value="myapp" />
 
@@ -32,7 +31,6 @@
          >
 
            <classes dir="${build}"/>
-           <lib dir="${lib}"/>
            
        </war>
     </target>
