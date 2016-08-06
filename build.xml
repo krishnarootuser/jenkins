@@ -28,7 +28,7 @@
        depends="prepare">
 
        <war destfile="${dist}/${context-path}.war" 
-         >
+         needxmlfile='false'>
 
            <classes dir="${build}"/>
            
