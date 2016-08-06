@@ -9,7 +9,6 @@
         <property name="src" value=".\src" />
         <property name="dist" value=".\dist" />
         <property name="lib" value=".\lib" />
-        <property name="web" value=".\web" />
         <property name="meta" value=".\meta" />
         <property name="context-path" value="myapp" />
 
@@ -30,11 +29,11 @@
        depends="prepare">
 
        <war destfile="${dist}/${context-path}.war" 
-         webxml="${meta}/web.xml">
+         >
 
            <classes dir="${build}"/>
            <lib dir="${lib}"/>
-           <fileset dir="${web}"/>
+           
        </war>
     </target>
 
