@@ -1,6 +1,6 @@
 print("Hi i am new to git")
 
-x = 10
-y = 20
+x = 30
+y = 300
 
 print x + y
